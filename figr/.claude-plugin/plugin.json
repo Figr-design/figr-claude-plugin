@@ -1,0 +1,14 @@
+{
+  "name": "figr",
+  "displayName": "Figr",
+  "version": "1.0.0",
+  "description": "Figr MCP — read design canvases and implement UI in your repo.",
+  "author": {
+    "name": "Figr",
+    "url": "https://figr.design"
+  },
+  "homepage": "https://docs.figr.design/docs/design-intelligence/figr-mcp",
+  "repository": "https://github.com/Figr-design/figr-claude-plugin",
+  "license": "MIT",
+  "keywords": ["figr", "mcp", "design", "ui"]
+}

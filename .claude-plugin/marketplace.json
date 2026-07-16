@@ -1,0 +1,26 @@
+{
+  "name": "figr",
+  "owner": {
+    "name": "Figr",
+    "email": "hello@figr.design"
+  },
+  "metadata": {
+    "description": "Figr plugins for Claude Code — MCP + skills to implement designs from Figr canvases.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "figr",
+      "source": "./figr",
+      "description": "Figr MCP — read design canvases and implement UI in your repo.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Figr",
+        "url": "https://figr.design"
+      },
+      "homepage": "https://docs.figr.design/docs/design-intelligence/figr-mcp",
+      "category": "development",
+      "keywords": ["figr", "mcp", "design", "ui"]
+    }
+  ]
+}
