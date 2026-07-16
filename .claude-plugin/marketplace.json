@@ -5,14 +5,14 @@
     "email": "hello@figr.design"
   },
   "metadata": {
-    "description": "Figr plugins for Claude Code — MCP + skills to implement designs from Figr canvases.",
+    "description": "Figr plugins for Claude Code - MCP + skills to implement designs from Figr canvases.",
     "version": "1.0.0"
   },
   "plugins": [
     {
       "name": "figr",
       "source": "./figr",
-      "description": "Figr MCP — read design canvases and implement UI in your repo.",
+      "description": "Figr MCP - read design canvases and implement UI in your repo.",
       "version": "1.0.0",
       "author": {
         "name": "Figr",

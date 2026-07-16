@@ -1,4 +1,4 @@
-# Figr — Claude Code marketplace
+# Figr - Claude Code marketplace
 
 Public install source for the Figr Claude Code plugin (MCP + `figr-mcp` skill).
 
