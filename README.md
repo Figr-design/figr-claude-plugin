@@ -1,6 +1,6 @@
 # Figr - Claude Code marketplace
 
-Public install source for the Figr Claude Code plugin (MCP + `figr-mcp` skill).
+Public install source for the Figr Claude Code plugin (MCP + writable `figr-mcp` skill).
 
 **Live repo:** https://github.com/Figr-design/figr-claude-plugin (public)
 
@@ -23,6 +23,10 @@ figr/                             # plugin name: figr → install as figr@figr
   .claude-plugin/plugin.json
   .mcp.json
   skills/figr-mcp/
+  skills/prototype-constraints/
+  skills/design-system/
+  skills/wireframe-styling/
+  skills/skill-creator/
 ```
 
 ## Local test
