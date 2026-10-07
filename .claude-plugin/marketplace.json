@@ -2,7 +2,7 @@
   "name": "figr",
   "owner": {
     "name": "Figr",
-    "email": "hello@figr.design"
+    "email": "hi@figr.design"
   },
   "metadata": {
     "description": "Figr plugins for Claude Code — write into Figr or port UI. Points at mcp.figr.design.",

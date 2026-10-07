@@ -1,55 +1,20 @@
-# Figr - Claude Code marketplace
+# Figr for Claude Code
 
-Public install source for the Figr Claude Code plugin (MCP + writable `figr-mcp` skill).
+Figr is an AI product design tool that takes teams from idea to shippable design through exploration, collaboration and iteration — grounded in their existing product and design system.
 
-**Live repo:** https://github.com/Figr-design/figr-claude-plugin (public)
-
-Source of truth in the monorepo: `coding-agents/figr-claude-plugin/` inside private `figr-ai`. After editing here, push updates to the public repo (this folder’s contents → repo root).
+This plugin connects Claude Code to Figr over MCP. Create and edit canvases, design systems, and org skills from Claude, or port screens into your repo.
 
 ## Install
 
-In Claude Code:
-
-```text
-/plugin marketplace add Figr-design/figr-claude-plugin
-/plugin install figr@figr
-```
-
-## Layout
-
-```text
-.claude-plugin/marketplace.json   # marketplace name: figr
-figr/                             # plugin name: figr → install as figr@figr
-  .claude-plugin/plugin.json
-  .mcp.json
-  skills/figr-mcp/
-  skills/prototype-constraints/
-  skills/design-system/
-  skills/wireframe-styling/
-  skills/skill-creator/
-```
-
-## Local test
-
 ```bash
-claude --plugin-dir ./figr
+claude plugin marketplace add Figr-design/figr-claude-plugin
+claude plugin install figr@figr
 ```
 
-## Validate
+Then `/mcp` → authenticate Figr.
 
-```bash
-claude plugin validate ./figr --strict
-```
+## Support
 
-## Sync monorepo → public repo
-
-From `coding-agents/figr-claude-plugin/`:
-
-```bash
-git init -b main
-git add -A && git commit -m "chore: sync marketplace"
-git remote add origin git@github.com:Figr-design/figr-claude-plugin.git
-git push -u origin main --force
-```
-
-(Prefer a dedicated worktree/script over nesting `.git` long-term.)
+- Docs: https://docs.figr.design/docs/design-intelligence/figr-mcp
+- Email: hi@figr.design
+- Privacy: https://www.figr.design/privacy-policy
